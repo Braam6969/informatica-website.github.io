@@ -1,0 +1,80 @@
+/*De Cascading Style Sheet van onze website!
+!!Deze CCS Stijlen kunnen verschillen van Bram!!
+-Code geschreven door Jahri Sars
+*/
+
+html {
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: white;
+  /*Ook al hebben we de onderste code niet geleerd, ik gebruik het toch!
+  De rede is dat de website er beter uit ziet en dat ik geen buttons hoef te gebruiken.*/
+  text-decoration: none;
+}
+
+.Title {
+  text-align: center;
+  border: 2px solid rgba(20, 20, 20, 1);
+  margin: 0px;
+  background-color: rgba(20, 20, 20, 1);
+  color: white;
+  padding: 120px auto;
+  position: fixed;
+  width: 100%;
+
+}
+.BoxLeft {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(20, 20, 20, 1);
+  border-top: 0px solid rgba(20, 20, 20, 1);
+  flex: 0.25;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  max-height: 710px;
+  min-height: 710px;
+  background-color: rgba(20, 20, 20, 1);
+  margin-top: 0;
+  position: fixed;
+}
+.BoxRight {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  flex-flow: column;
+  margin-top: 0;
+  overflow-y: scroll;
+  min-height: 500px;
+  
+}
+
+.Underline {
+  border-bottom: 3px solid white;
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 15px;
+  padding-left: 0px;
+  text-decoration: white;
+  text-align: left;
+}
+
+
+.CSS_Updated {
+  color: blue;
+}
+
+
+#Correct {
+  margin-left: 167px;
+}

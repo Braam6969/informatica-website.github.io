@@ -1,0 +1,69 @@
+/*de css van het html gedeelte van onze website!
+!!Deze CCS Stijlen kunnen verschillen van jahri!!
+-Code geschreven door Bram Noordman
+*/
+body {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 0px
+}
+
+
+.header {
+  text-align: center;
+  background-color: #303030;
+  color: white;
+}
+
+h1 {
+  padding: 0px;
+  font-size: 50px;
+}
+
+
+.uitleg {
+  background-color: #939393;
+}
+
+
+.onderkant {
+  display: flex;
+  flex-direction: row;
+  max-height: 480px;
+}
+.navigation {
+  flex: 1;
+  min-width: 100px;
+  max-width: 100px;
+  background-color: #303030;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100px;
+  max height: 20px;
+}
+
+.code-site {
+  display: flex;
+  flex-direction: row;
+  flex: 9;
+}
+
+.site {
+  flex: 6;
+  min-width: 20px;
+}
+
+textarea {
+  color: #00ff00;
+  background-color: #303030;
+  flex: 2;
+  min-height: 460px
+}
